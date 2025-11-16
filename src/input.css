@@ -25,7 +25,7 @@
   src: url('../font/Shrikhand.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: optimal;
 }
 
 @font-face {
@@ -33,7 +33,7 @@
   src: url('../font/Lobster.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: optimal;
 
 }
 @font-face {
@@ -41,5 +41,5 @@
   src: url('../font/FloralisCouture.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: optimal;
 }
