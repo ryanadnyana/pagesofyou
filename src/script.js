@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     btn.addEventListener("click", () => {
       const choice = btn.textContent.trim();
       const message =
-        choice === "Start New Journey!"
+        choice === "Start New Journey"
           ? "New jouney has been started!"
           : "She choose to End the Journey. Don't be discouraged...";
                   //service id:        template id:
