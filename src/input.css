@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@theme{
+    --color-seaPink: #f3979c;
+    --color-lotus: #8b2f30;
+    --color-watusi: #f7d9cc;
+    --color-heart: #e16b73;
+    --color-lightCarmine: #e56a6f;
+    --color-petiteOrchid: #dc958f;
+    --color-shilo: #e7b5ab;
+    --color-spicyMix: #8e6458;
+    --color-palePink: #fbdadc;
+    --color-chocolateCosmos: #501B1C;
+    --color-giantClub: #B05858;
+    --color-gold: #EFBF04;
+    --color-seashell: #FCF2ED;
+    --color-GargoyleGas: #FCD94A;
+}
+@theme {
+  --font-shrikhand: 'Shrikhand', sans-serif;
+  --font-lobster: 'Lobster', cursive;
+  --font-FloralisCouture: 'FloralisCouture';
+  
+}
+@font-face {
+  font-family: 'Shrikhand';
+  src: url('../font/Shrikhand.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('../font/Lobster.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'FloralisCouture';
+  src: url('../font/FloralisCouture.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
