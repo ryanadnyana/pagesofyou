@@ -19,14 +19,13 @@
   --font-shrikhand: 'Shrikhand', sans-serif;
   --font-lobster: 'Lobster', cursive;
   --font-FloralisCouture: 'FloralisCouture';
-  
 }
 @font-face {
   font-family: 'Shrikhand';
   src: url('../font/Shrikhand.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  
+  font-display: swap;
 }
 
 @font-face {
@@ -34,6 +33,7 @@
   src: url('../font/Lobster.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 
 }
 @font-face {
@@ -41,4 +41,5 @@
   src: url('../font/FloralisCouture.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
