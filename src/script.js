@@ -49,3 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 2500);
   }
 });
+
+// Set current year in footer
+document.getElementById("copyright").innerHTML = `&copy; ${new Date().getFullYear()} pagesofyou. All Rights Reserved`;
