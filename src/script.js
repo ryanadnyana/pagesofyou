@@ -50,5 +50,5 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-// Set current year in footer
+// set tahun di footer
 document.getElementById("copyright").innerHTML = `&copy; ${new Date().getFullYear()} pagesofyou. All Rights Reserved`;
