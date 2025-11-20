@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../*.html";
+@source "../src/**/*.js";
 @theme{
     --color-seaPink: #f3979c;
     --color-lotus: #8b2f30;
@@ -25,7 +27,7 @@
   src: url('../font/Shrikhand.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: optimal;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,13 +35,12 @@
   src: url('../font/Lobster.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: optimal;
-
+  font-display: swap;
 }
 @font-face {
   font-family: 'FloralisCouture';
   src: url('../font/FloralisCouture.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: optimal;
+  font-display: swap;
 }
