@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const message =
         choice === "New Chapter"
           ? "New jouney has been started!"
-          : "She choose to End the Journey. Don't be discouraged...";
+          : "Not now, maybe another time";
                   //service id:        template id:
       emailjs.send("service_me8jg0r", "template_r1m1ig4", {
         from_name: "webBalikan",
@@ -52,3 +52,29 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // set tahun di footer
 document.getElementById("copyright").innerHTML = `&copy; ${new Date().getFullYear()} pagesofyou. All Rights Reserved`;
+
+// animasi pause play card saat di hover
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.querySelector('.flex.overflow-hidden.w-full');
+    const movingParts = document.querySelectorAll('.animate-loop');
+
+    const pause = () => {
+        movingParts.forEach(el => el.style.animationPlayState = 'paused');
+    };
+
+    const play = () => {
+        movingParts.forEach(el => el.style.animationPlayState = 'running');
+    };
+
+    if (container) {
+      // desktop/laptop
+        container.addEventListener('mouseenter', pause);
+        container.addEventListener('mouseleave', play);
+
+      // mobile/touchscreen
+        container.addEventListener('touchstart', pause, { passive: true });
+        container.addEventListener('touchend', play);
+        
+        container.addEventListener('touchcancel', play);
+    }
+});

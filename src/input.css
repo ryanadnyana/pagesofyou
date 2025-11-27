@@ -44,3 +44,12 @@
   font-style: normal;
   font-display: swap;
 }
+.animate-loop {
+    animation: loop-scroll 20s linear infinite;
+    will-change: transform;
+}
+
+@keyframes loop-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}

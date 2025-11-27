@@ -9,7 +9,7 @@
     <link rel="preload" as="image" href="./assets/bg.webp" fetchpriority="high">
     <title>pagesofyou</title>
 </head>
-<body>
+<body class="[&::-webkit-scrollbar]:hidden">
     <img src="./assets/bg.webp" alt="" fetchpriority="high" class="hidden"/>
 
 <!-- Opening Screen -->
@@ -41,7 +41,7 @@
                     <p class="mr-12 text-7xl">Next</p>
                     <p class="-mr-35 -mt-2 text-4xl">Chapter</p>
             </div>
-            <ul class="flex flex-wrap justify-center items-center gap-14 mt-10 px-4">
+            <ul class="flex flex-wrap justify-center items-center gap-10 md:gap-14 mt-10 px-4">
                 <li class="hover:underline">Home</li>
                 <li class="hover:underline">About</li>
                 <li class="hover:underline">Service</li>
@@ -83,17 +83,211 @@
         <div class="max-w-full h-full bg-watusi p-10 md:px-30 md:py-14 flex items-center justify-center">
             <div class="w-[900px] text-lotus first-letter:text-3xl">
                 <p class="text-lg">
-                    Sekarang, aku ngga nyalahin kamw sama sekali kalo pada akhirnya kamw lebih nyaman dengan dirimu yang sekarang (single era's), atau kalo kamw butuh ruang untuk berdiri sendiri. Itu wajar, dan aku bisa ngerti. Yang penting buat aku, kamw bisa tenang, bebas, dan jadi diri kamw tanpa tekanan dari siapa pun termasuk aku. Tapi aku juga pengen kamw tau bahwa aku belajar banyak dari semuanya. Pelan-pelan aku belajar jadi cowok yang ngga ngatur, ngga maksa, tau kapan harus maju dan kapan cukup bilang “semangat ya.” Aku ngga tau kamw bakal ngerasa apa pas baca ini, tapi yang jelas aku masih sayang kamw, dan kalo suatu hari aku ada dalam hidupmu lagi, aku pengen datang sebagai seseorang yang bikin kamw merasa aman, bukan sebagai kurungan.
+                    Aku ngelihat lagi ke belakang dan ngerti kenapa beberapa hal bisa kerasa berat buat kamw, termasuk soal batasan dari kedua orang tua kamw. Aku tau, alasan kita putus karena kamw ngehormatin keputusan dari kedua orang tuamu. Justru, kalo kita mencoba lagi, aku mau jadi support system yang bikin kamw aman dan bikin kamw semangat terus, bukan malah bikin kamw ngerasa bersalah atau harus melawan orang tua. Sekarang, aku ngga nyalahin kamw sama sekali kalo akhirnya kamw lebih nyaman sama diri kamw yang sekarang (single era's), atau kalo kamw butuh ruang buat berdiri sendiri. Itu wajar, dan aku bisa ngerti. Pelan-pelan aku belajar jadi cowok yang ngga ngatur, ngga maksa, tau kapan harus maju dan kapan cukup bilang “semangat ya.” Aku janji, kalo kita mencoba lagi, gaya pacaran kita bakal ngikutin kenyamanan kamw. Kalo pun harus backstreet, itu ngga bakal ngelelahin, tapi justru kita bakal balik ke pola komunikasi yang udah kita jalanin sekarang kayak slow response, ngebales pas ada waktu, dan yang paling penting, tanpa pressure sedikit pun, tapi bukan dengan cara pisah.
                 </p>
             </div>
         </div>
     </section>
+<!-- MUSIC LYRIC -->
+    <section class="max-w-full h-full bg-lotus p-10 md:px-30 md:py-10 flex justify-center select-none ">
+    <div class="flex overflow-hidden w-full group mask-[linear-gradient(to_right,transparent_0,black_10px,black_calc(100%-10px),transparent_100%)]">
+        <div class="flex space-x-10 md:space-x-40 shrink-0 animate-loop pr-10 md:pr-40 group-hover:paused group-active:paused">
+            <!-- CARD 1 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/coverbruno.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">When I Was Your Man</h3>
+                    <p class="opacity-60 text-sm">Bruno Mars</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-4/6 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>2:27</span><span>3:34</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “Although it hurts, I'll be the first to say that I was wrong.”
+                    </p>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/happiness.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">Happiness</h3>
+                    <p class="opacity-60 text-sm">Rex Orange Country</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-1/4 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>1:08</span><span>4:39</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “And I'll be the one that will love you the way I'm supposed to”
+                    </p>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/2112.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">2112</h3>
+                    <p class="opacity-60 text-sm">Reality Club</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-4/6 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>3:18</span><span>5:56</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “Maybe you weren't made for me, Nor I for you, But I'd be damn lying, If I think that that's true”
+                    </p>
+                </div>
+            </div>
+            <!-- CARD 4 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/perfect.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">Perfect</h3>
+                    <p class="opacity-60 text-sm">Ed Sheeran</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-4/10 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>1:41</span><span>4:23</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “ I found a woman, stronger than anyone I know, She shares my dreams, I hope that someday I'll share her home”
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- COPYAN -->
+        <div class="flex space-x-10 md:space-x-40 shrink-0 animate-loop pr-10 md:pr-40 group-hover:paused group-active:paused" aria-hidden="true">
+            <!-- CARD 1 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/coverbruno.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">When I Was Your Man</h3>
+                    <p class="opacity-60 text-sm">Bruno Mars</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-4/6 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>2:27</span><span>3:34</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “Although it hurts, I'll be the first to say that I was wrong.”
+                    </p>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/happiness.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">Happiness</h3>
+                    <p class="opacity-60 text-sm">Rex Orange Country</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-1/4 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>1:08</span><span>4:39</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “And I'll be the one that will love you the way I'm supposed to”
+                    </p>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/2112.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">2112</h3>
+                    <p class="opacity-60 text-sm">Reality Club</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-4/6 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>3:18</span><span>5:56</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “Maybe you weren't made for me, Nor I for you, But I'd be damn lying, If I think that that's true”
+                    </p>
+                </div>
+            </div>
+            <!-- CARD 4 -->
+            <div class="w-64 bg-watusi rounded-xl flex flex-col p-6 gap-4">
+                <img src="../assets/perfect.png" alt="Cover" class="w-full rounded-md shadow-sm pointer-events-none">
+                <div class="leading-tight">
+                    <h3 class="font-bold text-lg">Perfect</h3>
+                    <p class="opacity-60 text-sm">Ed Sheeran</p>
+                </div>
+                <div class="w-full space-y-1">
+                    <div class="relative w-full h-1 bg-gray-500/40 rounded-full">
+                        <div class="absolute top-0 left-0 h-full w-4/10 bg-gray-700 rounded-full">
+                            <div class="absolute -right-1 -top-0.5 w-2 h-2 bg-gray-800 rounded-full shadow"></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-[10px] opacity-70 font-mono">
+                        <span>1:41</span><span>4:23</span>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-gray-400/20">
+                    <p class="text-center text-xs italic leading-relaxed opacity-80">
+                        “ I found a woman, stronger than anyone I know, She shares my dreams, I hope that someday I'll share her home”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- PARAGRAF 3 -->
     <section class="max-w-full h-full bg-[url('../assets/stawberry.jpg')] p-10 md:px-30 md:py-14 flex items-center justify-center">
         <div class="container w-[900px] h-max  bg-[#D97A8A] rounded-xl shadow-2xl">
             <p class="text-[#ffe7d3] text-lg leading-relaxed p-6">
-                Selama waktu kita ngga bareng ini, aku berharap kamw udah bisa mikir dengan tenang tentang apa pun yang kamw pengen ke depannya. Dan jujur, kadang aku mikir tentang kita, kamw yang jago desain, aku yang suka bikin website, aku selalu ngerasa kita itu dua hal yang berbeda tapi nyambung, kayak kehidupan yang harus selalu saling melengkapi. kamw punya nilai yang tinggi, bukan cuma karena cantik, tapi karena kamw kreatif, berbakat, dan punya aura yang bikin nyaman (kayak aku bilang dulu). Dari dulu aku sadar itu, dan bukan berarti aku minder.. aku cuma selalu pengen jadi versi diriku yang layak berjalan di sampingmu. Bukan buat bersaing sama siapa pun, tapi karena aku pengen jadi seseorang yang bener-bener bisa ngejaga kamw, kalo suatu hari kita punya kesempatan itu lagi.
+                Aku ngga tau kamw bakal ngerasa apa pas baca ini, tapi yang jelas aku masih sayang kamw, dan kalo suatu hari aku ada dalam hidupmu lagi, aku pengen dateng sebagai seseorang yang bikin kamw ngerasa aman, bukan sebagai kurungan. Selama waktu kita ngga bareng ini, aku berharap kamw udah bisa mikir dengan tenang tentang apa pun yang kamw pengen ke depannya. Aku selalu ngerasa kita itu dua hal yang beda tapi nyambung, kayak kehidupan yang harus selalu saling melengkapi.. kamw yang jago desain, aku yang suka bikin website. Kamw punya nilai yang tinggi, bukan cuma karena cantik, tapi karena kamw kreatif, berbakat, dan punya aura yang bikin nyaman. Dari dulu aku sadar itu, dan aku cuma selalu pengen jadi versi diriku yang layak jalan di sampingmu.
             </p>    
         </div>
     </section>
@@ -102,7 +296,7 @@
     <section class="max-w-full h-full p-10 bg-watusi bg-center bg-no-repeat bg-cover md:px-30 md:py-14 flex items-center justify-center">
         <div class="w-[900px] h-max bg-lotus shadow-2xl rounded-xl">
             <p class="text-[#ffe7d3] text-lg leading-relaxed p-6">
-                Aku gatau apakah kamw bakal mau ngasih aku kesempatan lagi buat buktiin kalo aku udah berubah. Aku ngerti, kamw mungkin masih butuh waktu, proses, dan jarak juga. Aku siap nunggu. Aku cuma pengen kamw tau, kalo suatu saat nanti kamw ngerasa siap, aku bakal tetep di sini, dengan versi diriku yang lebih baik, yang lebih ngerti kamw, dan yang lebih bisa ngejaga perasaan kamw. Aku harap kamw bisa baca surat ini dengan hati yang terbuka. Aku harap kamw bisa ngerasa kalo aku bener-bener pengen jadi bagian dari hidup kamw lagi, tapi kali ini dengan cara yang lebih dewasa dan penuh pengertian. Dan kalo boleh jujur… apakah aku boleh berusaha memenangkan "a bit chances" itu sekarang? Dan kalo suatu hari nanti jalan kita dipertemukan lagi, aku harap kita bisa ketemu sebagai dua orang yang sama-sama tumbuh. Aku percaya, kalo memang kita masih punya ruang di hati masing-masing, semesta akan selalu nemuin cara untuk membawa kita kembali.
+                Aku harap kamw bisa baca surat ini dengan hati yang terbuka, dan kamw bisa ngerasa kalo aku bener bener pengen jadi bagian dari hidup kamw lagi, tapi kali ini dengan cara yang lebih dewasa dan penuh pengertian, serta ngehormatin semua batasan kamw. Aku janji, kali ini aku bakal jadi tempat yang tenang, bukan kurungan buat kamw. Dan kalo boleh jujur… apakah aku boleh berusaha memenangkan "a bit chances" itu sekarang? Aku percaya, kalo emang kita masih punya ruang di hati masing-masing, semesta bakal selalu nemuin cara buat ngebawa kita kembali sebagai dua orang yang sama-sama tumbuh. Dan kalo pun semua yang pernah terjadi harus jadi pelajaran, aku tetep bersyukur pernah punya kamw. Karena dari kamw, aku belajar arti sabar, kehilangan, dan gimana caranya mencintai tanpa memberikan pressure.
             </p>    
         </div>
     </section>
@@ -124,14 +318,14 @@
                         New Chapter
                     </button>
                     <button class="bg-[#F2B6B3] px-4 py-2 rounded cursor-pointer hover:opacity-90 transition hover:-translate-y-1 duration-300">
-                        End Here
+                        Not Now
                     </button>
                 </div>
                 
             </div>
-            <p class="text-lotus text-xs pt-2 select-none">*ambil keputusan yang paling bikin kamw tenang</p>
+            <p class="text-lotus text-xs pt-2 select-none">*take your time to asnwer this question</p>
             <span class="pt-6 py-4 flex justify-center items-center leading-relaxed text-lotus text-lg">
-                Apapun keputusanmu yang diatas, aku bakal tetep terima. Karena yang paling penting buat aku sekarang adalah kebahagiaan kamw, apapun itu bentuknya.
+                Apapun keputusanmu yang diatas, aku bakal tetep terima. Karena yang paling penting buat aku sekarang adalah kebahagiaan kamw, apapun itu bentuknya. Dan kalau pun pada akhirnya kita hanya tetap menjadi teman dekat, aku harap kita bisa tetap berkomunikasi layaknya saat ini. Karena kamw tetap berarti buat aku, lebih dari yang kamw tau.
             </span>
             <p class="text-center text-lotus pt-4">
                 - Wedha, terima kasih sudah mau baca surat ini sampe habis. Semoga kamw selalu bahagia, apapun yang terjadi nanti. -
